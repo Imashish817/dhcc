@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:900');
+.form {
+    margin-inline-end: auto;
+    position: relative;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(to bottom left, #C02425 40%, #F0CB35 100%);
+}
+
+img {
+    margin-top: 1em;
+}
+
+h5:hover {
+    color: black;
+}
+
+h5:hover {}
+
+.whatsapp {
+    margin-top: 1000px;
+}
+
+body {
+    /* background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%); */
+}

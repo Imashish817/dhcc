@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <link rel="stylesheet" type="text/css" href="gallary.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="socialmedia.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+
+</head>
+
+<body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("img").click(function() {
+                var t = $(this).attr("src");
+                $(".modal-body").html("<img src='" + t + "' class='modal-img'>");
+                $("#myModal").modal();
+            });
+
+            $("video").click(function() {
+                var v = $("video > source");
+                var t = v.attr("src");
+                $(".modal-body").html("<video class='model-vid' controls><source src='" + t + "' type='video/mp4'></source></video>");
+                $("#myModal").modal();
+            });
+        }); //EOF Document.ready
+    </script>
+    <div id="headerbar" class="header">
+        <div class="outer-wrapper">
+
+            <div class="container">
+                <div id="google_translate_element"> </div>
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({
+                            pageLanguage: 'en'
+                        }, 'google_translate_element');
+                    }
+                </script>
+                <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                </script>
+                <div class="row">
+                    <div class="logo col-md-6 col-lg-6 col-sm-6">
+                        <h3><strong><a href="" rel="home"><img src="final/syb.jpg">&nbsp;Deoria Health Care Center</a></strong>
+                            <p class="site-description"><small>New Colony, Deoria, Uttar Pradesh</small></p>
+                        </h3>
+                        <div class="follow">Follow Us on:
+                            <li class="list-inline-item"><a href="https://www.facebook.com/100990935087867/posts/101003128419981/?sfnsn=wiwspwa&extid=kaYHGi89pEzlJBhq"><i class="fa fa-facebook fa-lg"></i></a></li>
+
+                            <li class="list-inline-item"><a href="https://www.instagram.com/p/CE4hlxsJVJv/?igshid=an3gtf73oo9f"><i class="fa fa-instagram fa-lg"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=+919452033244"><i class="fa fa-whatsapp fa-lg"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCpLj_PCqcDzo0lW7MiJfB5A" target="_blank"><i class="fa fa-youtube fa-lg"></i></a></li>
+                            <br><br></div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-6">
+                        <div class="row contact-call-Email">
+
+                            <p class="calling"><span><i class="fa fa-phone" aria-hidden="true"></i></span>Emergancy: +91 7232946848 </p>
+                            <p class="email"><span><i class="fa fa-envelope" aria-hidden="true"></i></span>Enquiry: +91 8299725304 </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-0 col-lg-3">
+                        <div class="row contact-call-Email">
+                            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <img src="final/medical-symbol.png" alt="" width="150px">
+                        </div>
+                    </div>
+                </div>
+                <div>
+
+                    <hr>
+                    <marquee>Covid-19 के इस प्रकोप वाली स्थिती के दौरान हम <b>Deoria Health Care, Deoria</b> में पूरी तरह से सावधानी बरत रहे है, आप निडर और निश्चिंत रहे,<b>Deoria Health Care, Deoria</b> आपकी सभी Emergencies के लिए काम कर रहा है, आप घर पर रहे सुरक्षित
+                        रहे तथा सरकार द्वारा दिए गए निर्देशों का पालन करे । </marquee>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html"><i class="fa fa-home"></i>&nbsp;Home&nbsp;&nbsp;&nbsp; <span
+                                  class="sr-only">(current)</span>
+                                </a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-md"></i>
+                                  &nbsp;Doctors
+                                </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Dr.Dharmendra.html">Dr. Dharmendra</a>
+                        <a class="dropdown-item" href="Dr.A.KYadav.html">Dr. A.K Yadav</a>
+                        <a class="dropdown-item" href="Dr.DeepakTiwari.html">Dr. Deepak Tiwari</a>
+                        <a class="dropdown-item" href="Dr.NaveenSingh.html">Dr. Naveen Singh</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ContactUs.html">&nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i>&nbsp;Contact us&nbsp;&nbsp;&nbsp;</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="form.html"><i class="fa fa-question-circle"></i>&nbsp;Ask a Question <span class="sr-only">(current)</span></a>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="gallary.html">&nbsp;&nbsp;&nbsp;<i class="fas fa-images"></i></i>&nbsp;Gallery  <spanclass="sr-only"></span></a>
+                    </li>
+                </li>
+            </ul>
+
+            <div class="nav-link">Follow Us on:
+                <li class="list-inline-item"><a href="https://www.facebook.com/100990935087867/posts/101003128419981/?sfnsn=wiwspwa&extid=kaYHGi89pEzlJBhq"><i class="fa fa-facebook fa-lg"></i></a></li>
+
+                <li class="list-inline-item"><a href="https://www.instagram.com/p/CE4hlxsJVJv/?igshid=an3gtf73oo9f"><i class="fa fa-instagram fa-lg"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="https://api.whatsapp.com/send?phone=+919452033244"><i class="fa fa-whatsapp fa-lg"></i></a>
+                </li>
+                <li class="list-inline-item"><a href="" target="_blank"><i class="fa fa-envelope fa-lg"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCpLj_PCqcDzo0lW7MiJfB5A" target="_blank"><i class="fa fa-youtube fa-lg"></i></a></li>
+            </div>
+        </div>
+
+    </nav>
+    <hr>
+    <nav id="navbar-example2" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Gallery</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#Clinic">Clinic Gallery</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Doctor's Gallery</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#Dharmendra">Dr. Dharmendra Kamla</a>
+                    <a class="dropdown-item" href="#ak">Dr. A. K. Yadav</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#Deepak">Dr. Deepak Tiwari</a>
+                    <a class="dropdown-item" href="#Naveen">Dr. Naveen Singh</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="Clinic" class="text-center">Clinic Gallery</h4>
+        <hr>
+        <div id="gallery" class="container-fluid">
+            <img src="final/gallary/clinic/clinic (1).jpeg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (1).jpg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (2).jpg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (3).jpg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (4).jpg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (5).jpeg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (6).jpeg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (6).jpg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (7).jpeg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (8).jpeg" class="card img-responsive">
+            <img src="final/gallary/clinic/clinic (9).jpeg" class="card img-responsive">
+        </div>
+        <br>
+        <hr>
+
+        <h4 id="Dharmendra" class="text-center">Dr. Dharmendra Kamla</h4>
+        <hr>
+        <div id="gallery" class="container-fluid">
+            <img src="final/gallary/dharam/dram (1).jpeg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (1).jpg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (2).jpeg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (2).jpg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (3).jpeg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (3).jpg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (4).jpeg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (4).jpg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (5).jpeg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (5).jpg" class="card img-responsive">
+            <img src="final/gallary/dharam/dram (6).jpeg" class="card img-responsive">
+        </div>
+        <br><br>
+        <hr>
+
+        <h4 id="ak" class="text-center">Dr. A. K. Yadav</h4>
+        <hr>
+        <div id="gallery" class="container-fluid ">
+
+            <img src="final/gallary/ak/ak (1).jpg " class="card img-responsive ">
+            <img src="final/gallary/ak/ak (2).jpg " class="card img-responsive ">
+            <img src="final/gallary/ak/ak (3).jpg " class="card img-responsive ">
+            <img src="final/gallary/ak/ak (4).jpg " class="card img-responsive ">
+            <img src="final/gallary/ak/ak (5).jpg " class="card img-responsive ">
+        </div><br><br>
+        <hr>
+        <h4 id="Deepak" class="text-center">Dr. Deepak Tiwari</h4>
+        <hr>
+        <div id="gallery" class="container-fluid ">
+            <video class="card vid" controls>
+                <source src="final/gallary/deepak/deepak (1).mp4" type="video/mp4">
+                </source>
+              </video>
+            <video class="card vid" controls>
+                <source src="final/gallary/deepak/deepak (2).mp4" type="video/mp4">
+                </source>
+              </video>
+            <video class="card vid" controls>
+                <source src="final/gallary/deepak/deepak (3).mp4" type="video/mp4">
+                </source>
+              </video>
+
+
+            <img src="final/gallary/deepak/deepak (1).jpeg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (1).jpg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (2).jpg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (3).jpg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (4).jpg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (5).jpg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (6).jpg" class="card img-responsive">
+            <img src="final/gallary/deepak/deepak (7).jpg" class="card img-responsive">
+        </div><br><br>
+        <h4 id="Naveen">Dr. Naveen Singh</h4>
+        <!-- <img src="final/gallary/image (1).jpeg " class="card img-responsive "> -->
+
+    </div>
+
+    <section id="footer">
+        <div class="container ">
+            <div class="row text-center text-xs-center text-sm-left text-md-left ">
+                <div class="col-xs-12 col-sm-6 col-md-6 ">
+                    <h5>Our Doctors</h5>
+                    <ul class="list-unstyled quick-links ">
+                        <li><a href="Dr.Dharmendra.html "><i class="fa fa-angle-double-right "></i>Dr. Dharmendra</a></li>
+                        <li><a href="Dr.A.KYadav.html "><i class="fa fa-angle-double-right "></i>Dr. A.K Yadav</a></li>
+                        <li><a href="Dr.DeepakTiwari.html "><i class="fa fa-angle-double-right "></i>Dr. Deepak Tiwari</a></li>
+                        <li><a href="Dr.NaveenSingh.html "><i class="fa fa-angle-double-right "></i>Dr. Naveen Singh</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 ">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links ">
+                        <li><a href="index.html "><i class="fa fa-angle-double-right "></i>Home</a></li>
+
+                        <li><a href="form.html "><i class="fa fa-angle-double-right "></i>Ask Question</a>
+                        </li>
+                        <li><a href="gallary.html "><i class="fa fa-angle-double-right "></i>Gallary</a></li>
+                        </li>
+                        <li><a href="ContactUs.html "><i class="fa fa-angle-double-right "></i>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5 ">
+                    <ul class="list-unstyled list-inline social text-center ">
+                        <li class="list-inline-item "><a href="https://www.facebook.com/100990935087867/posts/101003128419981/?sfnsn=wiwspwa&extid=kaYHGi89pEzlJBhq "><i
+                class="fa fa-facebook "></i></a></li>
+
+                        <li class="list-inline-item "><a href="https://www.instagram.com/p/CE4hlxsJVJv/?igshid=an3gtf73oo9f "><i
+                class="fa fa-instagram "></i></a></li>
+
+                        <li class="list-inline-item "><a href="https://api.whatsapp.com/send?phone=+919452033244 "><i
+                    class="fa fa-whatsapp "></i></a></li>
+
+                        <li class="list-inline-item "><a href=" "><i
+                class="fa fa-envelope "></i></a></li>
+                        <li class="list-inline-item "><a href="https://www.youtube.com/channel/UCpLj_PCqcDzo0lW7MiJfB5A " target="_blank "><i
+                class="fa fa-youtube "></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white ">
+
+                    <p class="h6 ">© All right are Reversed to<a class="text-green ml-2 " href="https://www.Deoriahealthcarecenter.com " target="_blank ">Deoria Health Care Center</a></p>
+                    <p><u><a href="https://www.linkedin.com/in/ashish-jaiswal-ba8a04148/ ">This Website is developed by Ashish Jaiswal</a></u> </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+
+    <!-- GetButton.io widget -->
+    <script type="text/javascript ">
+        (function() {
+            var options = {
+                whatsapp: "919452033244 ", // WhatsApp number
+                call: "9452033244 ", // Call phone number
+                call_to_action: "Message us ", // Call to action
+                button_color: "#129BF4 ", // Color of button
+                position: "right ", // Position may be 'right' or 'left'
+                order: "whatsapp,call ", // Order of buttons
+            };
+            var proto = document.location.protocol,
+                host = "getbutton.io ",
+                url = proto + "//static. " + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /GetButton.io widget -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
+</body>
+
+</html>
